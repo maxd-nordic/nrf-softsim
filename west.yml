@@ -2,15 +2,15 @@
 # https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/dm_adding_code.html
 manifest:
   remotes:
-    - name: nrfconnect
-      url-base: https://github.com/nrfconnect/
+    - name: t91x
+      url-base: https://github.com/bjda-thingy91/
   projects:
     - name: sdk-nrf
       path: nrf
-      revision: 1fae141
-      remote: nrfconnect
+      revision: thingy91x_board_rebase_dec12_cleanup
+      remote: t91x
       import: true
 
   self:
     path: modules/lib/onomondo-softsim
- 
+
